@@ -16,10 +16,10 @@ very beautiful and decent with CSS, BOOTSTRAP, and HTML tags.
 ![Author_Home_Posts_page_07](https://user-images.githubusercontent.com/24228300/125960828-e47a89bc-171e-45e8-8b48-d6952fc3f96d.PNG)
 
 # Technologies Used
-Django - Python web framework
-Sqlite3 - Default database
-HTML-CSS - Design and Style
-Bootstrap - Few stylinging designs
+1. Django - Python web framework
+2. Sqlite3 - Default database
+3. HTML-CSS - Design and Style
+4. Bootstrap - Few stylinging designs
 
 # Quick Start
 To get this project up and running locally on your computer:
