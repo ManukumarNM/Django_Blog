@@ -12,6 +12,8 @@ very beautiful and decent with CSS, BOOTSTRAP, and HTML tags.
 7. Users and Visitor both can send a message to the admin using contact form.
 
 # Sample Images
+![Home_Post_page_01](https://user-images.githubusercontent.com/24228300/125960796-4644966f-36cb-415b-9dec-629914ccda46.PNG)
+![Author_Home_Posts_page_07](https://user-images.githubusercontent.com/24228300/125960828-e47a89bc-171e-45e8-8b48-d6952fc3f96d.PNG)
 
 # Technologies Used
 Django - Python web framework
@@ -26,12 +28,12 @@ To get this project up and running locally on your computer:
 2. Clone this project to your local computer and unzip it.
 3. Run the following commands. Install on your own virtual environment. 
 
-   ### pip install -r requirements.txt
-   ### python manage.py makemigrations
-   ### python manage.py migrate
-   ### python manage.py collectstatic
-   ### python manage.py createsuperuser 
-   ### python manage.py runserver
+   ###### pip install -r requirements.txt
+   ###### python manage.py makemigrations
+   ###### python manage.py migrate
+   ###### python manage.py collectstatic
+   ###### python manage.py createsuperuser 
+   ###### python manage.py runserver
    
 4. Open a browser to http://127.0.0.1:8000 - project is running, start posting and editing, deleting your posts.
 5. Open a browser to http://127.0.0.1:8000/admin/ - to open the admin site view it - with created superuser username and password.
