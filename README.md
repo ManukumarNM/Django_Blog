@@ -1,4 +1,4 @@
-# Title - Django_Blog ![MIT](https://user-images.githubusercontent.com/24228300/125961605-75b8b212-875d-4471-959f-c72c4c047a2d.png)
+# Title - Django_Blog !(https://user-images.githubusercontent.com/24228300/125961605-75b8b212-875d-4471-959f-c72c4c047a2d.png)
 
 The Blog Application[version1.0] for sharing posts along with images was developed using a beautiful Python web framework called Django with all the possible validations. I's looks 
 very beautiful and decent with CSS, BOOTSTRAP, and HTML tags. 
