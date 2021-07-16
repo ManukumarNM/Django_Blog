@@ -40,7 +40,7 @@ To get this project up and running locally on your computer:
 
 # Upcoming Features 
 The django_blog upcoming version(v2.0) contains comment, share, and like for posts.
-It is developed fully using function based views upcoming version contains class based views and cripsy forms.
+It is developed fully using function based views upcoming version contains class based views, and many more features, validations, sessions and cripsy forms etc.
 
 
 
