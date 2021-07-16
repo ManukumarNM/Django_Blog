@@ -1,5 +1,5 @@
 *.html linguist-detectable=true
-*.css linguist-detectable=true
-*.js linguist-detectable=false
+*.css linguist-detectable=false
 *.python linguist-detectable=true
 *.Django linguist-detectable=true
+*.Bootstrap linguist-detectable=true
