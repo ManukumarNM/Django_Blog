@@ -18,7 +18,7 @@ The Blog Application[version1.0] for sharing posts along with images was develop
 1. Django - Python web framework
 2. Sqlite3 - Default database
 3. HTML-CSS - Design and Style
-4. Bootstrap - Few stylinging designs
+4. Bootstrap - Few styling designs
 
 # Quick Start
 To get this project up and running locally on your computer:
