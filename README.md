@@ -1,8 +1,9 @@
-# Title - Django_Blog
+# Title - Django_Blog ![MIT](https://user-images.githubusercontent.com/24228300/125961605-75b8b212-875d-4471-959f-c72c4c047a2d.png)
+
 The Blog Application[version1.0] for sharing posts along with images was developed using a beautiful Python web framework called Django with all the possible validations. I's looks 
 very beautiful and decent with CSS, BOOTSTRAP, and HTML tags. 
 
-# Features of Django_Blog
+# Features of Django_Blog - v1.0
 1. User Register and Login.
 2. Registered-Login user can post with image or without image, update and delete his posts.
 3. User profile update and view. 
