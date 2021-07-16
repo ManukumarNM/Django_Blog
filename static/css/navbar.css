@@ -1,0 +1,43 @@
+/* body {font-family: Arial, Helvetica, sans-serif;} */
+body{
+  /* margin:0px; */
+  margin-top:60px;
+  padding: 80px; 
+}
+
+.nav-right {
+  float: right;
+}
+
+.navbar {
+  width: 88.5%;
+  background-color: rgb(38, 69, 82);
+  overflow: auto;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: rgba(44, 195, 221, 0.308);
+}
+
+.active {
+  background-color: #d36051;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+

@@ -1,0 +1,123 @@
+body{
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 80px;
+}
+.content-section {
+    
+    background: rgb(230, 223, 223);
+    padding: 10px 20px;
+    border: 2px solid #3391b6;
+    margin: auto;
+    width: 800px; 
+    border-radius: 3px;
+    margin-bottom: 20px; 
+   
+  }
+
+  .content-section-profile {
+  
+    top: 10px;
+    background: rgb(230, 223, 223);
+    padding: 20px 150px;
+    border: 3px solid #3391b6;
+    margin: relative;
+    width: 900px; 
+    height: 750px;
+    border-radius: 3px;
+    margin-bottom: 20px; 
+   
+  }
+  .mr-2{
+    font-style: italic;
+    /* color:rgb(31, 25, 25); */
+  }
+
+  hr.new3 {
+    border-top: 1px dotted black;
+  }
+  
+  .article-title {
+    color: #d65b5b;
+  }
+  
+  a.article-title:hover {
+    color: #428bca;
+    text-decoration: none;
+  }
+  
+  .article-content {
+    white-space: pre-line;
+    padding-right: 350px;
+  }
+  
+  .article-img{
+    max-width: 100% !important;
+    height: auto !important;
+    border-radius: .25rem!important;
+}
+
+.featured-image-list{
+    object-fit: cover;
+} 
+  
+  .article-metadata {
+    top: 50px;
+    padding-bottom: 1px;
+    padding-right: -550px;
+    margin-top: -40px;
+    margin-bottom: 40px; 
+    border-bottom: 1px solid #e3e3e3
+  }
+  
+  .article-metadata a:hover {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .article-svg {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+  }
+  
+  .account-img {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .account-heading {
+    font-size: 2.5rem;
+  }
+
+  .circular--square {
+    border-radius: 30%;
+    margin-right: 800px; 
+  }
+
+  .right-section {
+    background:rgb(230, 223, 223);
+    border: 2px solid #bebcc5;
+    top: 135px;
+    position: absolute;
+    right: 0;
+    width: 230px;
+    height: 200px;
+    color:rgb(158, 25, 25);
+    /* color:rgb(90, 86, 148); */
+  }
+
+  .left-section {
+    /* background:rgb(230, 223, 223); */
+    /* border: 2px solid #bebcc5; */
+    top: 130px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 180px;
+    color: orange;
+  }

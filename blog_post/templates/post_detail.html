@@ -1,0 +1,44 @@
+{% extends './base.html' %}
+{% block title %} Home {% endblock %}
+{% load static %}
+
+{% block content %}
+
+    {% if user.is_authenticated %}
+<div class="right-section">
+    <h3>Status</h3>
+    <marquee><strong>Posts:</strong> {{ num_posts }}</marquee>   
+</div>
+    {% endif %}  
+
+    {% for post in posts %}
+<article class="media content-section">
+    <!-- Profile pics for post ->post.post_author.author.image.url - post_author(foreignkey) is a variable from POST 
+        model and author is a model from blog-->
+    <img class="circular--square" height="55" width="55" src="{{ post.post_author.author.image.url }}" alt="invalid">
+    <div class="media-body"> 
+        <div class="article-metadata">
+            <a class="mr-2" href="#">Author-{{ post.post_author }}</a>
+            <small class="mr-2">{{  post.post_date|date:"F d, Y" }}</small>
+            <span>
+                {% if user.is_authenticated %}
+            <a class="" href="/post_update/{{ post.id }}/update">Update</a>   
+            <a class="" href="/post_delete/{{ post.id }}/delete">Delete</a> 
+                {% endif %}
+            </span>
+       </div>
+            <hr class="new3">
+            <h2 class="article-title" >{{ post.title }}</h2>
+            <p class="article-content">{{ post.content }}</p>
+                {% if post.image %}
+            <img src="{{ post.image.url }}" width="305" height="150" alt="Not Available">  
+                {% else %}
+            <p></p> 
+                {% endif %}
+    </div>
+</article>
+
+{% endfor %}
+
+{% include "./pagination.html" with page=posts %}
+{% endblock %}

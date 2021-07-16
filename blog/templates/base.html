@@ -1,0 +1,57 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/navbar.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/sidenav.css' %}" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>{% block title %} {{ title }} {% endblock %}</title>
+  </head>
+
+  <body>
+    <!-- Side navigation -->
+      {% if user.is_authenticated %}
+    <div class="sidenav">
+      <a href="{% url 'author_form' %}"><i class="fa fa-fw fa-user-circle"></i>Profile</a>
+      <a href="#">Edit</a>
+      <a href="#">Settings</a>
+    </div>
+      {% else%}
+    <div class="sidenav">
+      <div class="left-section">
+        <h3>Status</h3>
+        <marquee>  <strong>Posts:</strong> {{ num_posts }} <br>
+        <strong>Authors:</strong> {{ num_users }} </marquee>
+      </div>
+    </div>
+      {% endif %}
+    <div class="navbar">
+        <a class="active" href="/"><i class="fa fa-fw fa-home"></i> Home</a> 
+        <a href="/post_form"><i class="fa fa-fw fa-file-text"></i> Post</a>
+        <a href="/blog/about"><i class="fa fa-fw fa"></i> About</a>
+        <a href="/blog/contact"><i class="fa fa-fw fa"></i> Contact</a>
+        <a href="/"><i class="fa fa-fw fa-search"></i> Search</a>  
+      <div class="nav-right">   
+        <font color="w3-red-red">
+          {% if user.is_authenticated %} WELCOME  {{ user.username}} 
+        <a href="/blog/logout"><i class="fa fa-fw fa-lock"></i> Logout </a>
+          {% else %}
+        <a href="/blog/register"><i class="fa fa-fw fa-user-o"></i> Register</a>
+        <a href="/blog/login"><i class="fa fa-fw fa-user"></i> Login</a> 
+          {% endif %}
+        </font>
+      </div>
+    </div>
+    </div>
+
+   {% block content %}
+  
+   {% endblock %}
+   
+  </body>
+</html>
