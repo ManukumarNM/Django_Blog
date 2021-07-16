@@ -1,6 +1,5 @@
-# Title - Django_Blog -> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-The Blog Application[version1.0] for sharing posts along with images was developed using a beautiful Python web framework called Django with all the possible validations. I's looks 
-very beautiful and decent with CSS, BOOTSTRAP, and HTML tags. 
+# Title - Django_Blog - [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+The Blog Application[version1.0] for sharing posts along with images was developed using a beautiful Python web framework called Django with all the possible validations. It's looks very beautiful and decent with CSS, BOOTSTRAP, and HTML tags. 
 
 # Features of Django_Blog - v1.0
 1. User Register and Login.
