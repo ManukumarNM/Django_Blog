@@ -2,4 +2,4 @@
 *.css linguist-detectable=false
 *.python linguist-detectable=true
 *.Django linguist-detectable=true
-*.Bootstrap linguist-detectable=true
+*.Bootstrap linguist-detectable=false
